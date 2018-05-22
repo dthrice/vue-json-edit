@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Json Editor</title>
+    <title>JSON Editor</title>
     <style>
       body {
         font-size: 14px;
@@ -29,22 +29,54 @@
       .t {
         text-align: center;
         margin-top: 40px;
-        margin-bottom: 60px;
+        margin-bottom: 10px;
       }
 
       .editor-w {
         margin: 0 auto;
         max-width: 1200px;
         padding: 0 20px;
+        display: flex;
+      }
+
+      .code-pre, .code-content, pre, code {
+        height: 100%;
+      }
+
+      code {
+        border-left: 1px solid #ccc;
+        line-height: 2.15em;
+      }
+
+      .w-1 {
+        float: left;
+        width: 60%;
+        flex-wrap: wrap;
+        padding-top: 50px;
       }
 
       .w-2 {
         float: left;
-        width: 50%;
+        width: 40%;
+        flex-wrap: wrap;
       }
 
       .editor {
         padding: 20px 60px;
+      }
+
+      .add-form input, .add-form select {
+        border: 1px solid #ececec;
+        padding: 2px;
+        border-radius: 2px;
+      }
+
+      .add-form input:focus, .add-form select:focus,
+      .add-form input:hover, .add-form select:hover,
+      .add-form input:active, .add-form select:active {
+        text-decoration: none;
+        outline: none;
+        border-color: #ff0000;
       }
 
 
@@ -53,5 +85,5 @@
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
- <script type="text/javascript" src="main_5bb8d237e0dc61a136fc.js"></script></body>
+ <script type="text/javascript" src="main_9108bf417842f4a660b7.js"></script></body>
 </html>
