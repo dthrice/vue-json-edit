@@ -18,7 +18,6 @@
     "json"
   ],
   "main": "./src/index.js",
-  "module": "./dist/vue-json-edit.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Toyinster/vue-json-edit.git"
