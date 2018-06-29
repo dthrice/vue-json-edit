@@ -20,12 +20,12 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Toyinster/vue-json-edit.git"
+    "url": "git+https://github.com/dthrice/vue-json-edit.git"
   },
-  "homepage": "https://github.com/Toyinster/vue-json-edit",
+  "homepage": "https://github.com/dthrice/vue-json-edit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Toyinster/vue-json-edit/issues"
+    "url": "https://github.com/dthrice/vue-json-edit/issues"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
